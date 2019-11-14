@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thema Smart Technology</title>
+    <link rel="stylesheet" type="text/css" href="css/style7.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>Portfolio MSI Coen Goossens</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="over MSI.html">Over MSI</a></li>
+                    <li><a href="thema's.html">Thema's</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+    </nav>
+
+    <div class="container">
+        <section id="main">
+            <h1>Thema Smart Technology</h1>
+            <p>Hieronder wordt per week de content geplaatst voor het thema Smart Technology.</p>
+        </section>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <section>
+            <h3>Smart Technology WK1</h3>
+            <p>In de eerste vier weken is het de bedoeling om een IoT-schakeling te bouwen voor het automatiseren van de lichtintensiteit én aarde-vochtigheid van een plant. </p>
+
+            <p>Tijdens de eerste week werd het materiaal uitgereikt dat gebruikt moest worden om de IoT-schakeling te bouwen.
+                Ieder onderdeel werd kort toegelicht, waardoor ik gelijk een beeld kreeg wat de functie van de verschillende onderdelen was.
+                Dit was erg prettig, aangezien wij binnen de opleiding Technische Bedrijfskunde verder nooit in aanraking zijn geweest met elektronica, printplaten etc.</p>
+
+            <p>Een van de eerste handelingen tijdens de workshop was het installeren van Arduino IDE. Dit programma was benodigd om een code te kunnen programmeren en te kunnen doorsturen naar de micro-controller ESP32. 
+                Voor mij was het programma Arduino IDE volledig nieuw. Ik had immers nog geen voorkennis wat betreft programmeren, maar dit was geen enkel probleem.
+                Er was namelijk voldoende gelegenheid om uitleg te krijgen over het programma of vragen te stellen aan medestudenten. 
+                Vervolgens mochten wij zelf aan de slag. Na het volgen van het stappenplan ontstond al vrij snel een breadboard met voeding voor de micro-controller. 
+                Om het duidelijker te maken werd tussentijds nog even de stroomkring voor de ESP32 uitgetekend. </p>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="main">
+            <img class="img_left" src="images/Foto Breadboard 1.jpg" alt="Breadboard image" width="250"/>
+            <img class="img_right" src="Images/Foto stroomkring ESP32.jpg" alt="Stroomkring ESP32 image" width="250" height="188"/>
+        </section>
+    </div>
+
+    <div class="container">
+        <section>
+            <p>Nadat de voeding voor de ESP32 aangesloten was vervolgenden we het stappenplan. De volgende stap was het aansluiten van de lichtsensor.
+                Hiervoor moest de lichtsensor met bijbehorende weerstand toegevoegd worden aan de stroomkring. 
+                De bedoeling was dat de lichtsensor bij té weinig licht een signaal doorstuurde naar de ESP32 die vervolgens, als reactie, een LED-lampje liet branden. 
+                Om dit mogelijk te maken moesten er via Arduino codes worden geüpload naar de ESP32. 
+            </p>
+
+            <p>Aan het einde van de workshop had ik het volgende als resultaat:</p>
+        </section>
+    </div>
+
+    <div class="container">
+        <video width="240" height="240" controls>
+            <source src="Videos/Breadboard filmpje 1.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="container">
+        <section>
+            <p>Ik heb enorm veel geleerd van deze interactieve workshop. Zo heb ik nu een veel beter beeld van hoe je een stroomkring creërt.
+                Aan dit soort (technische) onderwerpen wordt helaas weinig tot geen aandacht besteed binnen de opleiding Technische Bedrijfskunde, voor mij zijn dit soort workshops dus een ware kennisverbreding.
+                Verder snap ik na deze workshop ook veel beter hoe sensoren werken én hoe je deze sensoren kunt aansturen. Ik heb tijdens de workshop dan ook ruim de tijd genomen om de codes, die upgeload moesten worden naar de ESP32, goed te begrijpen. 
+                Het is voor mij zo beter te begrijpen wat er gebeurt én waarom er bepaalde foutmeldingen optreden. Verder heb ik ook veel geleerd van mijn medestudenten tijdens de workshop. Zij hebben mij onder andere uitgelegd hoe ik stuurprogramma's kon downloaden en gebruiken.</p>
+        </section>
+    </div>
+
+    <section id="competentie">
+        <div class="container">
+            <p>Met behulp van deze workshop en opdracht heb ik mij ontwikkeld in de volgende competentie behorend bij het thema Smart Technology:<u>"de student past nieuwe technologieën op het gebied van van IoT, Robotica en 3D-printen toe op een praktijkcasus"</u>
+                Ik heb namelijk gebruik gemaakt van allerlei technieken die ik voorheen nog niet kende. Denk hierbij aan het programmeren, maar ook het gebruik maken van een Breadboard. 
+                De kennis die ik opgedaan heb tijdens de workshop kon ik gelijk in de praktijk toepassen door de opdracht uit te voeren. Kortom, ik heb mij op technische vlak goed ontwikkeld tijdens deze workshop.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <div class="container">
+        <section>
+            <h3>Smart Technology WK2</h3>
+
+            <p>De workshop van week 2 bordeert voort op de workshop van week 1. Tijdens week 1 heb Part one van het stappenplan afgewerkt. In week 2 heb ik start gemaakt met Part two.
+                Het doel van deze week is om de lichtintensiteit en aarde-vochtigheid te kunnen meten en monitoren op afstand. In dit geval via een smartphone met de bijbehorende app Blynk.</p>
+
+            <p>We zijn allereerst begonnen met het downloaden van de Blynk app. Deze app moest vervolgens gekoppeld worden aan de Arduino IDE.
+                Bij mij verliep deze koppeling niet geheel probleemloos. De app bleef telkens offline waardoor er geen koppeling was, maar na vele malen proberen en goede hulp van mijn medestudenten is het uiteindelijk toch gelukt!
+                Na het toevoegen van een widget en het aanpassen van wat instellingen kon ik al vrij snel de lichtintensiteit aflezen op mijn smartphone.</p>
+
+            <p>Dit leverde het volgende resultaat op:</p>
+        </section>
+    </div>
+
+    <div class="container">
+			<img src="images/Foto blynk app1.jpg" alt="smartindustry image" width="200">
+	</div>
+	
+    <div class="container">
+        <section>
+            <p>De volgende stap is om het licht te kunnen monitoren. Hiervoor diende het ‘Klik aan Klik uit’ systeem gebruikt te worden. Met dit systeem kun je op afstand (via de smartphone) het licht uit of aanzetten. 
+                Het Klik aan klik uit systeem moest hiervoor gekoppeld worden aan de Blynk app. Via de smartphone kan dan een signaal worden gegeven om via adapter een schakeling uit te voeren, bijvoorbeeld aan óf uit.</p>
+
+            <p>Nu het licht gemonitord kan worden is ook het meetbaar maken van de aarde-vochtigheid van belang. Hiervoor moesten we de zogenaamde ground soil sensor installeren.
+                Deze sensor diende gekoppelde te worden aan de Blynk app door middel van een code.</p>
+
+            <p>Hieronder is de ground soil sensor en het uiteindelijke resultaat te zien:</p>
+        </section>
+    </div>
+
+    <div class="container">
+            <img class="img_left" src="images/Ground Soil Sensor.jpg" alt="Breadboard image" width="250"/>
+            <img class="img_right" src="Images/Foto Breadboard 2.jpg" alt="Stroomkring ESP32 image" width="250"/>
+    </div>
+
+    <div class="container">
+            <section>
+                <p>Ook tijdens deze week/workshop heb ik weer enorm veel bijgeleerd. Met name het op afstand kunnen meten en monitoren vond ik erg interessant.
+                    Ik verbaasde mij over hoe "simpel" het eigenlijk is om een smartphone te koppelen met bepaalde hardware. Voorheen leek mij dit altijd een erg complex proces.
+                    Verder heb ik veel geleerd over het koppelen van dergelijke systemen als het Klik aan Klik uit systeem. 
+                </p>
+            </section>
+    </div>
+
+    <section id="competentie">
+            <div class="container">
+                <p>Ook met behulp deze workshop en opdracht heb ik mij weer verder ontwikkeld in de volgende competentie:<u>"de student past nieuwe technologieën op het gebied van van IoT, Robotica en 3D-printen toe op een praktijkcasus".</u> 
+                Er zijn weer een tal van nieuwe technieken bijgekomen, zoals het koppelen van de smartphone en daarmee op afstand kunnen meten/monitoren. In deze competentie wil ik mij graag de komende weken en worshops verder ontwikkelen.</p>
+            </div>
+    </section>
+
+</body>
+</html>
